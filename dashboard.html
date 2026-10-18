@@ -1,24 +1,152 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Guddyyep Hub</title>
-    <style>
-        body{
-            background:#111;
-            color:white;
-            font-family:Arial;
-            text-align:center;
-            margin-top:100px;
-        }
-        h1{
-            color:#00ff99;
-        }
-    </style>
+<title>GUDDYYEP STORE</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+}
+
+header{
+padding:25px;
+text-align:center;
+background:black;
+border-bottom:2px solid #00ff88;
+}
+
+header h1{
+font-size:50px;
+color:#00ff88;
+}
+
+.hero{
+padding:80px;
+text-align:center;
+}
+
+.hero h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.hero p{
+color:#aaa;
+}
+
+.products{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:50px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#161616;
+width:300px;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 0 20px rgba(0,255,136,0.3);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.image{
+height:250px;
+background:linear-gradient(45deg,#00ff88,#00aaff);
+}
+
+.info{
+padding:20px;
+}
+
+.price{
+color:#00ff88;
+font-size:25px;
+margin-top:10px;
+}
+
+.buy{
+margin-top:15px;
+width:100%;
+padding:12px;
+border:none;
+background:#00ff88;
+font-weight:bold;
+cursor:pointer;
+border-radius:10px;
+}
+
+footer{
+padding:30px;
+text-align:center;
+color:gray;
+margin-top:50px;
+}
+</style>
+
 </head>
+
 <body>
 
-<h1>Bine ai venit!</h1>
-<p>Ai intrat cu succes folosind cheia.</p>
+<header>
+<h1>GUDDYYEP STORE</h1>
+</header>
+
+<section class="hero">
+<h2>Premium Streetwear</h2>
+<p>New Collection 2026</p>
+</section>
+
+<section class="products">
+
+<div class="card">
+<div class="image"></div>
+<div class="info">
+<h2>Nume Produs</h2>
+<p>Descriere produs.</p>
+<div class="price">PREȚ</div>
+<button class="buy">CUMPĂRĂ</button>
+</div>
+</div>
+
+<div class="card">
+<div class="image"></div>
+<div class="info">
+<h2>Nume Produs</h2>
+<p>Descriere produs.</p>
+<div class="price">PREȚ</div>
+<button class="buy">CUMPĂRĂ</button>
+</div>
+</div>
+
+<div class="card">
+<div class="image"></div>
+<div class="info">
+<h2>Nume Produs</h2>
+<p>Descriere produs.</p>
+<div class="price">PREȚ</div>
+<button class="buy">CUMPĂRĂ</button>
+</div>
+</div>
+
+</section>
+
+<footer>
+© 2026 GUDDYYEP STORE
+</footer>
 
 </body>
 </html>
