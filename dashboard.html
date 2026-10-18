@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>GUDDYYEP STORE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NUMELE TAU</title>
 
 <style>
 *{
@@ -63,8 +65,12 @@ transition:0.3s;
 transform:translateY(-10px);
 }
 
+/* poza produsului */
 .image{
+display:block;
+width:100%;
 height:250px;
+object-fit:cover;
 background:linear-gradient(45deg,#00ff88,#00aaff);
 }
 
@@ -95,6 +101,12 @@ text-align:center;
 color:gray;
 margin-top:50px;
 }
+
+@media (max-width:600px){
+header h1{font-size:32px;}
+.hero{padding:40px 20px;}
+.products{padding:30px 15px;}
+}
 </style>
 
 </head>
@@ -102,7 +114,7 @@ margin-top:50px;
 <body>
 
 <header>
-<h1>GUDDYYEP STORE</h1>
+<h1>NUMELE TAU</h1>
 </header>
 
 <section class="hero">
@@ -112,32 +124,35 @@ margin-top:50px;
 
 <section class="products">
 
+<!-- PRODUS 1 -->
 <div class="card">
-<div class="image"></div>
+<img class="image" src="poze/produs1.jpg" alt="Produs 1">
 <div class="info">
-<h2>Nume Produs</h2>
+<h2>Hanorac negru</h2>
 <p>Descriere produs.</p>
-<div class="price">PREȚ</div>
+<div class="price">150 RON</div>
 <button class="buy">CUMPĂRĂ</button>
 </div>
 </div>
 
+<!-- PRODUS 2 -->
 <div class="card">
-<div class="image"></div>
+<img class="image" src="poze/produs2.jpg" alt="Produs 2">
 <div class="info">
-<h2>Nume Produs</h2>
+<h2>Tricou oversize</h2>
 <p>Descriere produs.</p>
-<div class="price">PREȚ</div>
+<div class="price">80 RON</div>
 <button class="buy">CUMPĂRĂ</button>
 </div>
 </div>
 
+<!-- PRODUS 3 -->
 <div class="card">
-<div class="image"></div>
+<img class="image" src="poze/produs3.jpg" alt="Produs 3">
 <div class="info">
-<h2>Nume Produs</h2>
+<h2>Pantaloni cargo</h2>
 <p>Descriere produs.</p>
-<div class="price">PREȚ</div>
+<div class="price">200 RON</div>
 <button class="buy">CUMPĂRĂ</button>
 </div>
 </div>
@@ -145,7 +160,7 @@ margin-top:50px;
 </section>
 
 <footer>
-© 2026 GUDDYYEP STORE
+© 2026 NUMELE TAU
 </footer>
 
 </body>
