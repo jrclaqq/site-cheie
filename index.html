@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Acces Protejat</title>
+</head>
+<body style="text-align:center;font-family:Arial;margin-top:100px;">
+
+<h1>Introdu cheia</h1>
+
+<input type="password" id="key">
+<button onclick="login()">Intră</button>
+
+<script>
+function login() {
+    if(document.getElementById("key").value === "GUDDYYEP2026"){
+        alert("Acces permis!");
+    } else {
+        alert("Cheie greșită!");
+    }
+}
+</script>
+
+</body>
+</html>
